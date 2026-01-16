@@ -6,6 +6,8 @@ python -m pip install -r requirements.txt
 
 python manage.py collectstatic --noinput
 python manage.py migrate
-python manage.py loaddata people_fixture.json
+
+# Load fixture data (safe to re-run)
+python manage.py loaddata data/people_fixture.json || true
 
 
