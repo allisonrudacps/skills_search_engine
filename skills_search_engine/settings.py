@@ -9,10 +9,12 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv("SECRET_KEY", "django-insecure-change-me")
+PASSCODE = os.getenv("PASSCODE", "")
 DEBUG = os.getenv("DEBUG", "False").lower() in ("1", "true", "yes", "on")
 
 _allowed_hosts = os.getenv("ALLOWED_HOSTS", "*")
 ALLOWED_HOSTS = [h.strip() for h in _allowed_hosts.split(",") if h.strip()]
+
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -55,27 +57,16 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "skills_search_engine.wsgi.application"
 
-USE_SQLITE = os.getenv("USE_SQLITE", "").lower() in ("1", "true", "yes", "on")
+import dj_database_url
 
-if USE_SQLITE:
-    DATABASES = {
-        "default": {
-            "ENGINE": "django.db.backends.sqlite3",
-            "NAME": BASE_DIR / "db.sqlite3",
-        }
-    }
-else:
-    DATABASES = {
-        "default": {
-            "ENGINE": "django.db.backends.postgresql",
-            "NAME": os.getenv("DB_NAME", "postgres"),
-            "USER": os.getenv("DB_USER", "postgres"),
-            "PASSWORD": os.getenv("DB_PASSWORD", ""),
-            "HOST": os.getenv("DB_HOST", ""),
-            "PORT": os.getenv("DB_PORT", "5432"),
-            "OPTIONS": {"sslmode": os.getenv("DB_SSLMODE", "require")},
-        }
-    }
+DATABASES = {
+    "default": dj_database_url.config(
+        default=os.getenv("DATABASE_URL"),
+        conn_max_age=600,
+        ssl_require=True,
+    )
+}
+
 
 AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},

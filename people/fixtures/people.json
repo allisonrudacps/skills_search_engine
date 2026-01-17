@@ -1,0 +1,13 @@
+[
+  {
+    "model": "people.person",
+    "pk": 1,
+    "fields": {
+      "unique_id": "e5c6624a-e661-4612-9aa7-9ecb46feaad0",
+      "name": "Allison M. Ruda",
+      "organization": "",
+      "email": "allison.ruda@gmail.com",
+      "top_skills": "Prior Learning Assessment (PLA), Instructional Design, Design Strategies, Product Design, Adult Education"
+    }
+  }
+]
