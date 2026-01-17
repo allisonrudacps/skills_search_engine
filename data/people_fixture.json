@@ -1,13 +1,178 @@
 [
-  {
-    "model": "people.person",
-    "pk": 1,
-    "fields": {
-      "unique_id": "e5c6624a-e661-4612-9aa7-9ecb46feaad0",
-      "name": "Allison M. Ruda",
-      "organization": "",
-      "email": "allison.ruda@gmail.com",
-      "top_skills": "Prior Learning Assessment (PLA), Instructional Design, Design Strategies, Product Design, Adult Education"
-    }
+{
+  "model": "people.person",
+  "pk": 1,
+  "fields": {
+    "unique_id": "e5c6624a-e661-4612-9aa7-9ecb46feaad0",
+    "name": "Allison M. Ruda",
+    "organization": "",
+    "email": "allison.ruda@gmail.com",
+    "top_skills": "Prior Learning Assessment (PLA), Instructional Design, Design Strategies, Product Design, Adult Education",
+    "other_skills": "Faculty Development, Thought Leadership, Talent Strategy, Emerging Technologies, Generative Artificial Intelligence, Product Innovation, Blended Learning, Scalability, Product Software Implementation Method, Go-to-Market Strategy, Innovation Leadership, Modular Design, History Of Education, Learning Design, Curriculum Development, Program Evaluation, Research Experiences, Experiential Learning, Educational Technologies, Anthropology, Higher Education, Syllabus Development, Program Development, Experimentation, R (Programming Language), Microsoft Teams, Refining, Microsoft Access, Scale (Map)",
+    "title": "Administrator",
+    "division": "Graduate Professional",
+    "program": "Advanced Manufacturing",
+    "bio": "Strategic leader with over a decade of learning design and program development experience in the professional learning space. Experienced in fostering collaboration with internal and external partners, translating ideas with high strategic value into new products and projects, coaching and mentoring instructional designers, and championing educational innovation."
   }
+},
+{
+  "model": "people.person",
+  "pk": 2,
+  "fields": {
+    "unique_id": "fe88264d-18e3-4ce9-b024-a7ead1719c7e",
+    "name": "Andrew D.C. Anderson",
+    "organization": "",
+    "email": "anderson@northeastern.edu",
+    "top_skills": "Learning Strategies, Continuous Improvement Process, Common Core Standards, Blended Learning, Family Engagement",
+    "other_skills": "Universal Design, Executive Development, Experiential Education, Design Thinking, Formative And Summative Assessments, Special Education, Design Research, Progress Monitoring, Student-Centred Learning, Teacher Quality Assessments, Curriculum Development, Instructing, Experiential Learning, Tillage, Construction, Spring Framework, Podcasting, Microsoft Teams, Change Management, C (Programming Language), Toolkits, Simulations, Personalized Service, Swimming Pool Maintenance, Scale (Map)",
+    "title": "Faculty",
+    "division": "Undergraduate",
+    "program": "Applied Nutrition",
+    "bio": "Successful career demonstrating consistent achievement as an administrator and educator in the Barrington Public School District. Outstanding performance in assuring student success."
+  }
+},
+{
+  "model": "people.person",
+  "pk": 3,
+  "fields": {
+    "unique_id": "3634f586-8533-4b0d-a96d-1d13238c2538",
+    "name": "Cherese Childers-McKee",
+    "organization": "",
+    "email": "a.boyd@northeastern.edu",
+    "top_skills": "Experiential Learning, Organizational Leadership, Leadership Studies, Fundraising, Action Research",
+    "other_skills": "Public Relations, Organizational Change Management, Health Equity, Global Leadership, Community Development, Federal Emergency Management Agency (FEMA), Corporate Social Responsibility, Marketing, Community Outreach, Executive Development, Disaster Response, Grant Writing, Social Justice, Workforce Development, Fire Prevention, Change Management, Newsletters, Qualitative Research, Bash (Scripting Language), Social-Emotional Learning (SEL), Disaster Recovery, Research Experiences, Higher Education, Lecturing, Economics, Blogger (Service), Surveying, Loans, Executive Coaching, Public Health, Restructuring (Business), Equities, Executive Recruitment, Mills, Podcasting, Microsoft Teams, JBoss Operations Networks, Educational Technologies, Microsoft Access, Session (Computer Science)",
+    "title": "Administrator",
+    "division": "Undergraduate",
+    "program": "Advanced Manufacturing",
+    "bio": "Successful career demonstrating consistent achievement as an administrator and educator in the Barrington Public School District. Outstanding performance in assuring student success."
+  }
+},
+{
+  "model": "people.person",
+  "pk": 4,
+  "fields": {
+    "unique_id": "ecd2d186-bbd1-4361-8f0a-6f4b070d8f0e",
+    "name": "Cherese D. Childers-McKee",
+    "organization": "",
+    "email": "McKee@northeastern.edu",
+    "top_skills": "Learning Strategies, Boarding School, Academic Advising, Adult Education, Apgar Score",
+    "other_skills": "African-American Studies, Monolingual Learner's Dictionary, Faculty Development, Action Research, Organizational Change Management, Organizational Leadership, Social Studies, Microsoft Teams, Multicultural Education, Scholarship Of Teaching And Learning (SoTL), Gender Studies, Performance Appraisal, Teaching English As A Second Language, Pedagogy, Educational Research, Research Design, Project Management, Technical Training, Curriculum Development, Qualitative Research, Research Methodologies, Social Justice, Exercise Science, Critical Race Theory, Linguistics, Student Services, Special Education, Education Policy, Management Training And Development, Local Area Networks, Student-Centred Learning, Human Development, Social-Emotional Learning (SEL), Individualized Education Programs (IEP), Empowerment, Teacher Education, Experiential Learning, Practicum, Activism, Diversity Training, Ethnography, Data Analysis, Equities, Microsoft SharePoint, Autodesk Maya, Grading (Landscape), Visual Arts, DISC Assessments, R (Programming Language), Higher Education, Journals, Construction, Microsoft Access, Forging, Spring Framework, Podcasting, Sociology, Landscaping, Dissemination, Trajectory, C (Programming Language), Surveying, Tillage, Multimethodology, Peer Review, Session (Computer Science), Remote Initial Program Load, Flux (React.js), Flux-Cored Arc Welding, Swimming Pool Maintenance",
+    "title": "Faculty",
+    "division": "Graduate Professional",
+    "program": "Applied Machine Intelligence",
+    "bio": "Supported CTLL faculty’s understanding of the role of concentrations in the DiP curriculum, built collaboration within the team, worked with faculty to facilitate synchronous sessions with students."
+  }
+},
+{
+  "model": "people.person",
+  "pk": 5,
+  "fields": {
+    "unique_id": "875fa21e-6553-496b-a337-e0a37e18febf",
+    "name": "WENDY A. CROCKER",
+    "organization": "",
+    "email": "crocker@northeastern.edu",
+    "top_skills": "Pascal (Programming Language), Curriculum Theory, Pedagogy, Scholarship Of Teaching And Learning (SoTL), Emergent Curriculum",
+    "other_skills": "Learning Management Systems, Primary Education, International Relations, Balanced Literacy Approach, Teacher Development, Faculty Development, Action Research, Social Studies, Dentistry, Student-Centred Learning, Qualitative Analysis, Interdisciplinary Research, Applied Linguistics, Physical Education, Social Sciences, Language Arts, Research Design, Working With Children, Curriculum Development, International Education, Conflict Management, Social Justice, Curriculum Mapping, Education Policy, Teaching English As A Second Language, Common Assessment Framework, Succession Planning, Special Education, Newsletters, Learning Support, Quantitative Data Analysis, Curriculum Studies, Adjudication, Research Experiences, Surveys, Data Collection, Focus Group, Syllabus Development, Institutional Review Board (IRB), Rubric, Teacher Education, Textiles, Public Relations, Electrical And Computer Engineering, Abdomen (Medical), R (Programming Language), Optometry, Postpartum Care, Higher Education, Programmable Logic Controllers, Early Childhood Education, Statistics, Equities, Spring Framework, Project Management, Swift (Programming Language), Digital-To-Analog Converter, C (Programming Language), Blueprinting, Go (Programming Language), Library, Peer Review, Network Bridges, Inquiry, Scale (Map), Multimethodology, Job Interviews, Session (Computer Science), Transformation (Genetics), Automated Business Design, Tattooing, Legal Discovery",
+    "title": "Administrator",
+    "division": "Graduate Professional",
+    "program": "Advanced Manufacturing",
+    "bio": "WENDY A. CROCKER"
+  }
+},
+{
+  "model": "people.person",
+  "pk": 6,
+  "fields": {
+    "unique_id": "afc04799-3702-4c0c-982b-597a99d0247b",
+    "name": "Annine D. Crystal",
+    "organization": "",
+    "email": "a.crystal@northeastern.edu",
+    "top_skills": "Educational Psychology, Reading Instruction, Primary Education, Continuous Improvement Process, Common Core Standards",
+    "other_skills": "Early Childhood Education, Language Arts, Administrative Support, Curriculum Development, Teacher Quality Assessments, Teacher Education, Psychology",
+    "title": "Staff",
+    "division": "Graduate Professional",
+    "program": "Analytics",
+    "bio": "Annine D. Crystal"
+  }
+},
+{
+  "model": "people.person",
+  "pk": 7,
+  "fields": {
+    "unique_id": "0f9ba6e1-83ff-474a-a887-4514af44d770",
+    "name": "Mounira Morris",
+    "organization": "",
+    "email": "mo.morris@northeastern.edu",
+    "top_skills": "Higher Education Administration, Academic Advising, Pedagogy, Student Development, Discipleship",
+    "other_skills": "Multiple Activation Key, Data Collection, Content Analysis, Health Sciences, Sports Management, Student Services, Faculty Development, Action Research, Workshop Facilitation, Enrollment Management, Historic Preservation, Athletic Administration, Educational Research, Qualitative Research, Restorative Justice, Social Justice, Curriculum Mapping, Liberal Arts, Education Policy, Web Accessibility Initiative, Academic Libraries, Mental Health, Cognitive Processing, Modern Greek, Psychiatry, Wax, Landscaping, Autodesk Maya, Demography, Economics, Visual Arts, R (Programming Language), Higher Education, Equities, Experiential Learning, Spring Framework, Life Coaching, C (Programming Language), Cracking, Inquiry, Multimethodology, Peer Review, Apple Numbers",
+    "title": "Faculty",
+    "division": "Graduate Professional",
+    "program": "Applied Machine Intelligence",
+    "bio": "Mounira Morris"
+  }
+},
+{
+  "model": "people.person",
+  "pk": 8,
+  "fields": {
+    "unique_id": "e12fc929-13dc-4144-9554-eaaa60f8cc71",
+    "name": "Lindsay Portnoy",
+    "organization": "",
+    "email": "lportnoy@gmail.com",
+    "top_skills": "Higher Education Administration, Psychology, Teacher Education, Peer Review, Experiential Learning",
+    "other_skills": "Early Childhood Education, Educational Psychology, Educational Assessment, Playtesting, Instructional Design, Educational Games, Chemistry, Virtual Reality, Student Engagement, Explainable AI (XAI), Sustainable Development, Faculty Development, Action Research, Workshop Facilitation, Cognitive Science, Data Science, User Experience (UX), Augmented Reality, Project Management, Biology, Learning Sciences, Conceptual Framework, Emerging Technologies, Unsupervised Learning, Formative And Summative Assessments, Social Sciences, Child Development, Machine Learning, Pedagogy, Small Business Innovation Research, Educational Research, Cognitive Processing, Research Design, Marketing, Curriculum Development, Cyber Security, Iterative And Incremental Development, Design Thinking, Student Services, Artificial Intelligence, Developmental Psychology, Human Development, Bash (Scripting Language), General Scientific Knowledge, Teacher Quality Assessments, Game Design, Information And Communications Technology, Nursing, Higher Education, Grading (Landscape), Field Research, Data Collection, Oculus, American Psychological Style (APA), Montessori Education, Artificial Neural Networks, Biotechnology, Economics, Rubric, R (Programming Language), Enterprise Application Software, Program Development, Experimentation, Curation, Simulations, Storytelling, Vocational Rehabilitation Counseling, Calibration, Equities, Social Media, Cell Biology, Journals, Business Intelligence, Landscaping, Dissemination, Article (Publishing), C (Programming Language), Microsoft Access, Go (Programming Language), Human-Computer Interaction, Earth Science, Boost (C++ Libraries), Inquiry, Session (Computer Science), Express.js (Javascript Library)",
+    "title": "Staff",
+    "division": "Graduate Professional",
+    "program": "Applied Machine Intelligence",
+    "bio": "Lindsay Portnoy"
+  }
+},
+{
+  "model": "people.person",
+  "pk": 9,
+  "fields": {
+    "unique_id": "1bd5c2c8-997a-4b21-b855-bfc352ae83fa",
+    "name": "Dan Serig",
+    "organization": "",
+    "email": "danserig@gmail.com",
+    "top_skills": "Grant Applications, Multi-Age Classroom, Academic Advising, Student Development, Art Education",
+    "other_skills": "Organizational Communications, Educational Assessment, Curriculum Planning, Civic Engagement, Faculty Development, Action Research, Drawing, Data Visualization, Metacognition, Academic Affairs, Business Metrics, Performance Metric, Sculpture, Educational Research, Curation, Curriculum Development, International Education, Business Operations, Social Justice, Promotional Materials, Budget Development, Yearbooks, Mind Mapping, Quantitative Data Analysis, Qualitative Research, Arts Integration, Higher Education Administration, Program Evaluation, Surveys, Visual Arts, Photography, Painting, Landscaping, Lecturing, Early Childhood Education, Exhibitions, Higher Education, Life Coaching, Experimental Design, Neuroscience, Equities, Multimedia, Microsoft Teams, Postdoctoral Research, Teacher Education, Praxis EMR (Electronic Medical Record System), Auctioneering, Tillage, Microsoft Access, Inquiry, MASSIVE (Software), Session (Computer Science), Vienna Development Methods",
+    "title": "Faculty",
+    "division": "Graduate Professional",
+    "program": "Applied Machine Intelligence",
+    "bio": "Dan Serig"
+  }
+},
+{
+  "model": "people.person",
+  "pk": 10,
+  "fields": {
+    "unique_id": "591bafd5-4e72-4e43-a23c-66aeb8a55512",
+    "name": "Chris Unger",
+    "organization": "",
+    "email": "c.unger@northeastern.edu",
+    "top_skills": "Scientific Reasoning, Pedagogy, Instructional Design, Twitter Feed, Student Engagement",
+    "other_skills": "Research Reports, Action Research, Internal Reporting, Organizational Learning, Cognitive Science, YouTube Channels, Learning Sciences, Document Review, Strategic Alignment, Learning Theory, Research Design, Instructional Theories, Science Education, Newsletters, Bootstrapping, Student-Centred Learning, Human Development, General Scientific Knowledge, Risa (Structural Engineering Software), Psychology, Focus Group, Experiential Learning, Surveys, Educational Technologies, Podcasting, Syllabus Development, Social Media, Auditing, Research And Development, Autodesk Maya, Technical Assistance, Jersey (Java Framework), Construction, Journals, Microsoft Teams, Dissemination, Incubators, Article (Publishing), Partial Differential Equation, C (Programming Language), Groundwork (Construction), Peer Review, Inquiry, Multimethodology, Transformation (Genetics)",
+    "title": "Staff",
+    "division": "Undergraduate",
+    "program": "Analytics",
+    "bio": "Chris Unger"
+  }
+},
+{
+  "model": "people.person",
+  "pk": 11,
+  "fields": {
+    "unique_id": "d8282e68-c0c6-4cb7-9353-996beb34fa34",
+    "name": "Charles Kilfoye",
+    "organization": "",
+    "email": "c.kilfoye@northeastern.edu",
+    "top_skills": "Higher Education Administration, Experiential Learning, Academic Advising, Talent Recruitment, Customer Experience Improvement",
+    "other_skills": "Regulatory Affairs, Student Engagement, Practice Management, Mobile Application Development, Student Services, Distance Learning, Faculty Development, Resource Management, Talent Development, Research Papers, Technical Communication, Marketing, Adult Education, Java (Programming Language), Scalability, Workforce Development, Change Management, Minicomputers, Online Teaching, Customer Development, Upskilling, Learning and Development Programs and Policies, Management Training And Development, Curriculum Development, Diversity Equity And Inclusion Initiatives, Talent Pipelining, Educational Technologies, Mediation, Higher Education, Customer Relationship Management, Salesforce, New Product Development, Dashboard, Help Desk Support, Analytics, Spring Framework, Web Applications, Microsoft Access, Catalyst (Software), Streamlining, Scale (Map)",
+    "title": "Administrator",
+    "division": "Pathways",
+    "program": "Biological Science",
+    "bio": "High-performing, results-driven higher education professional with more than 20 years leadership and administrative experience serving corporate learning & development, workforce readiness,adult and continuing education, professional studies, and lifelong learning."
+  }
+}
 ]
