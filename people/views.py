@@ -204,8 +204,7 @@ def upload_file(request):
             file_content = file.read()
             pdf_file = io.BytesIO(file_content)
             client_id = os.getenv("RESUME_CLIENT_ID")
-	    client_secret = os.getenv("RESUME_CLIENT_SECRET")
-
+            client_secret = os.getenv("RESUME_CLIENT_SECRET")
 
             attempt = 0
             success = False
