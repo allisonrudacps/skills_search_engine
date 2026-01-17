@@ -1,5 +1,9 @@
+import os
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+import io
+from people.utils import process_resume
 from .models import Person, Skill
 import time
 import json
@@ -199,8 +203,9 @@ def upload_file(request):
 
             file_content = file.read()
             pdf_file = io.BytesIO(file_content)
-            client_id = "ip9yko1op2a386go"
-            client_secret = "VvVpcySC"
+            client_id = os.getenv("RESUME_CLIENT_ID")
+	    client_secret = os.getenv("RESUME_CLIENT_SECRET")
+
 
             attempt = 0
             success = False
