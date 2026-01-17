@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.http import JsonResponse
 from .models import Person, Skill
 import time
+import json
 
 def index(request):
     return render(request, 'index.html')
@@ -129,19 +130,23 @@ def get_graph_data(request):
     return JsonResponse({'nodes': nodes, 'edges': edges})
 
 from django.conf import settings
-def passcode_check(request):
-    if request.method == 'POST':
-        entered_passcode = request.POST.get('passcode')
-        if entered_passcode == settings.PASSCODE:
-            request.session['passcode_verified'] = True
-            return redirect('upload_resume')
-        else:
-            return render(request, 'passcode_check.html', {'error': 'Invalid passcode'})
-    return render(request, 'passcode_check.html')
 
-import io
-from django.views.decorators.csrf import csrf_exempt
-from people.utils import *
+import os
+
+def passcode_check(request):
+    if request.method == "POST":
+        entered_passcode = request.POST.get("passcode", "").strip()
+        expected_passcode = os.getenv("PASSCODE", "")
+
+        if entered_passcode and entered_passcode == expected_passcode:
+            request.session["passcode_verified"] = True
+            return redirect("upload_resume")
+
+        return render(request, "passcode.html", {
+            "error": "Invalid passcode"
+        })
+
+    return render(request, "passcode.html")
 
 def upload_resume(request):
     if not request.session.get('passcode_verified', False):
